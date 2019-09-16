@@ -4,18 +4,21 @@ Various functions writen to complete tasks with only the use of bitwise operator
 
 ## File Descriptions
 
-* **bits.c** - *Main Program* - A local version of the "least recently used" swapping strategy.
+* **bits.c** - *Main Program* - Functions completed with bitwise operators
 
-* **bits.h** - *Predictive Paging Implementation* - A paging strategy that relies heavily on the program knowledge given. Pages in pages only when they are needed and pages them out only when they are not needed by any programs. Does not include any swapping out of pages when memory is full.   
+* **bits.h** - *bits.c Header File* 
 
-* **test.c** - Builds both the pager-predict and pager-lru programs (as well as the given pager-basic file). Can either make one specific file (basic, lru, or predict) or "make all" recreates all generated files.
+* **btest.c** - *Testing* - A test harness that checks solution in bits.c for correctness
 
-* **Makefile** - *LRU Paging Implementation* - A local version of the "least recently used" swapping strategy.
+* **btest.h** - *Testing* 
 
-* **float_f2i.c** - *Predictive Paging Implementation* - A paging strategy that relies heavily on the program knowledge given. Pages in pages only when they are needed and pages them out only when they are not needed by any programs. Does not include any swapping out of pages when memory is full.   
+* **Makefile** - Makefile that builds btest and other helper programs
 
-* **float_half.c** - Builds both the pager-predict and pager-lru programs (as well as the given pager-basic file). Can either make one specific file (basic, lru, or predict) or "make all" recreates
+* **tests.c** - *Testing* 
 
-* **isAsciiDigit.c** - *Predictive Paging Implementation* - A paging strategy that relies heavily on the program knowledge given. Pages in pages only when they are needed and pages them out only when they are not needed by any programs. Does not include any swapping out of pages when memory is full.   
+* **decl.c** - *Testing*
 
-* **satAdd.c** - Builds both the pager-predict and pager-lru programs (as well as the given pager-basic file). Can either make one specific file (basic, lru, or predict) or "make all" recreates
+* **fshow.c** -  *Testing* Display structure of floating-point numbers
+
+* **ishow.c** - *Testing* Display value of fixed point numbers
+
